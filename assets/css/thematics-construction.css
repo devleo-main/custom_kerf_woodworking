@@ -1,0 +1,23 @@
+/** CONSTRUCTION
+	home-theme-construction.html
+ ********************************************* **/
+.iframe-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.spacer {
+  min-height: 50vh;
+}
+.quote-button {
+  display: flex;
+  justify-content: center;
+  flex-flow: inline;
+}
+@media only screen and (max-width: 400px) {
+  .quote-button {
+    flex-flow: column !important;
+  }
+  section.parallax {
+    background-size: auto 100% !important;
+  }
+}

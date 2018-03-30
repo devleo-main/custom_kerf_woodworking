@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .spacer {
-  min-height: 50vh;
+  min-height: 25vh;
 }
 .quote-button {
   display: flex;

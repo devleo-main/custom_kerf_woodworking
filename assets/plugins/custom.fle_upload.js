@@ -1,9 +1,9 @@
 /**
-	Reference: 
+	Reference:
 	http://www.onextrapixel.com/2012/12/10/how-to-create-a-custom-file-input-with-jquery-css3-and-php/
 	http://codepen.io/wallaceerick/pen/fEdrz
-	
-	DO NOT REPLACE! MODIFIED FOR BOOTSTRAP! [Dorin grigoras - www.stepofweb.com]
+
+	DO NOT REPLACE! MODIFIED FOR BOOTSTRAP!
 **/
 ;(function($) {
 

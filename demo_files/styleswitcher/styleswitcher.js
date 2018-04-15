@@ -1,11 +1,4 @@
-/** ********************************************** **
-	@Author			Dorin Grigoras
-	@Website		www.stepofweb.com
-	@Last Update	Monday, July 21, 2014
- ** ********************************************* **/
- 
- 
- 
+
 /*!
  * jQuery Cookie Plugin v1.3.1
  * https://github.com/carhartl/jquery-cookie
@@ -162,7 +155,7 @@ jQuery(document).ready(function() {
 			// Removed starting with v2.0.0
 			//jQuery("head").append('<link href="assets/plugins/bootstrap/RTL/bootstrap-rtl.css" rel="stylesheet" type="text/css" id="rtl_ltr_b1" />');
 			//jQuery("head").append('<link href="assets/plugins/bootstrap/RTL/bootstrap-flipped.css" rel="stylesheet" type="text/css" id="rtl_ltr_b2" />');
-			
+
 			jQuery("head").append('<link href="assets/plugins/bootstrap/RTL/bootstrap-rtl-merged.min.css" rel="stylesheet" type="text/css" id="rtl_ltr_b1" />');
 			jQuery("head").append('<link href="assets/css/layout-RTL.css" rel="stylesheet" type="text/css" id="rtl_ltr" />');
 
@@ -193,8 +186,8 @@ jQuery(document).ready(function() {
 			jQuery('body').removeClass('transparent');
 		}
 
-		/* 
-			IE Fix - boxed & sticky header 
+		/*
+			IE Fix - boxed & sticky header
 			@Styleswitcher bug only.
 		*/
 		if(jQuery('html').hasClass('ie')) {
@@ -246,8 +239,8 @@ jQuery(document).ready(function() {
 	function getPreferredStyleSheet() {
 		var i, a;
 		for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
-			if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("rel").indexOf("alt") == -1 && a.getAttribute("title")) { 
-				return a.getAttribute("title"); 
+			if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("rel").indexOf("alt") == -1 && a.getAttribute("title")) {
+				return a.getAttribute("title");
 			}
 		}
 
@@ -255,7 +248,7 @@ jQuery(document).ready(function() {
 	}
 
 	function createCookie(name,value,days) {
-		/** 
+		/**
 		if (days) {
 			var date = new Date();
 			date.setTime(date.getTime()+(days*24*60*60*1000));
@@ -267,7 +260,7 @@ jQuery(document).ready(function() {
 	}
 
 	function readCookie(name) {
-		/** 
+		/**
 		var nameEQ = name + "=";
 		var ca = document.cookie.split(';');
 		for(var i=0;i < ca.length;i++) {
